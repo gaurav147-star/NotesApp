@@ -1,0 +1,35 @@
+#signupcon {
+  margin: 40px auto;
+  background: rgb(255, 255, 255) !important;
+  align-items: center;
+  /* display: flex;
+    justify-content: center; */
+  height: 550px;
+  position: relative;
+  width: 700px;
+  border-radius: 25px;
+}
+#signup {
+  padding-top: 30px;
+  position: relative;
+}
+.contsignup {
+  display: flex;
+  justify-content: space-between;
+}
+#signbtn {
+  background: black !important;
+  padding: 10px 20px !important;
+}
+.signtxt{
+    text-align: center;
+    /* margin: 0px 97px; */
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  #signupcon {
+   margin: 0 auto;
+    width: 100%;
+  }
+}

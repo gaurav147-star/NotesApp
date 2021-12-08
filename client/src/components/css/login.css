@@ -1,0 +1,42 @@
+#logincon {
+  margin: 40px auto;
+  background: rgb(255, 255, 255) !important;
+  align-items: center;
+  /* display: flex;
+  justify-content: center; */
+  height: 350px;
+  position: relative;
+  width: 500px;
+
+  border-radius: 25px;
+}
+#login {
+  padding-top: 30px;
+  position: relative;
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+}
+.logtxt {
+  text-align: center;
+  /* margin: 0px 97px; */
+  font-size: 1.8rem;
+  padding-top: 25px;
+}
+#loginbtn {
+  background: black !important;
+  padding: 10px 20px !important;
+}
+@media screen and (max-width: 540px) {
+  #logincon {
+   
+    width: 100%;
+  }
+}
+/* @media screen and (max-width: 430px) {
+  #logincon {
+   
+    width: 100%;
+  }
+} */
