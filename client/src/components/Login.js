@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link,useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import "./css/login.css";
 require("dotenv").config();
 
@@ -39,7 +39,7 @@ const Login = (props) => {
     <div className="container " id="logincon">
       <h2 className="logtxt">Login to NotesApp</h2>
       <form onSubmit={handleSubmit} id="login">
-        <div className="form-group " >
+        <div className="form-group ">
           <label htmlFor="exampleInputEmail1">Email address</label>
           <input
             type="email"
@@ -51,7 +51,6 @@ const Login = (props) => {
             placeholder="Enter email"
             onChange={onChange}
           />
-         
         </div>
         <div className="form-group">
           <label htmlFor="exampleInputPassword1">Password</label>
@@ -66,12 +65,14 @@ const Login = (props) => {
           />
         </div>
         <div className="cont">
-        <button type="submit" className="btn btn-primary" id="loginbtn">
-          Submit
-        </button>
-        <Link className="sign mx-2 my-2" to="/signup">
-          Signup
-        </Link>
+          <button type="submit" className="btn btn-primary" id="loginbtn">
+            Submit
+          </button>
+        </div>
+        <div className="contn">
+          <Link className="sign mx-2 my-2" to="/signup">
+            Signup
+          </Link>
         </div>
       </form>
     </div>

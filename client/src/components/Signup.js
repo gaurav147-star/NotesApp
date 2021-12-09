@@ -101,6 +101,9 @@ const Signup = (props) => {
         <button type="submit" className="btn btn-primary" id="signbtn">
           Submit
         </button>
+       
+        </div>
+        <div className="contsl">
         <Link className="sign mx-2 my-2" to="/login">
           Login
         </Link>
