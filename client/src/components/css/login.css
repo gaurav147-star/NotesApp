@@ -1,19 +1,34 @@
 #logincon {
-  margin: 40px auto;
+  /* margin: 40px auto; */
   /* background: rgb(255, 255, 255) !important; */
-  background: -webkit-linear-gradient(top, #7579ff, #b224ef) !important;
-  align-items: center;
+  /* background: -webkit-linear-gradient(top, #7579ff, #b224ef) !important;
+  align-items: center; */
   /* display: flex;
   justify-content: center; */
-  height: 450px;
+  /* height: 450px;
   position: relative;
   width: 500px;
   box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 25px;
+  border-radius: 25px; */
+
+  position: relative;
+  width: 500px;
+  min-height: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba (0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba (255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba (255, 255, 255, 0.2);
+  flex-direction: column;
 }
 #login {
   padding-top: 30px;
-  position: relative;
+  /* position: relative; */
 }
 .cont {
   display: flex;
@@ -21,11 +36,11 @@
   align-items: center;
   margin-top: 30px;
 }
-#logincon label{
-  font-size: 20px;
-  color: white !important;
+#logincon label {
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0) !important;
 }
-#logincon .form-control{
+#logincon .form-control {
   background: none !important;
   color: white !important;
   border: none;
@@ -33,35 +48,42 @@
 .logtxt {
   text-align: center;
   /* margin: 0px 97px; */
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding-top: 25px;
 }
 
 #loginbtn {
-  background: rgb(255, 255, 255) !important;
- border-radius: 25px;
+  /* background: rgb(255, 255, 255) !important;
+  border-radius: 25px;
   padding: 10px 20px !important;
   color: black;
   font-size: 1.2rem;
   border: none !important;
   box-shadow: inset 0px 5px 20px rgba(0, 0, 0, 0.25);
+   */
+  background: #fff !important;
+  color: #666 !important;
+  max-width: 100px;
+  cursor: pointer !important;
+  margin-bottom: 20px;
+  border: none !important;
+  font-weight: 600;
 }
-#loginbtn:hover{
-background: -webkit-linear-gradient(top, #7579ff, #b224ef) !important;
-color: white;
+#loginbtn:hover {
+  background:black !important;
+  color: white !important;
 }
-.contn{
+.contn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
-.sign{
+.sign {
   color: white !important;
 }
 @media screen and (max-width: 540px) {
   #logincon {
-   
     width: 100%;
   }
 }

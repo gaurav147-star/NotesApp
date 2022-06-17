@@ -2,9 +2,13 @@
   /* text-align: center; */
 /* background: rgba(0, 0, 0, 0.541); */
 body {
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
   /* background-repeat: no-repeat !important; */
+  background: url(./bg.jpg);
+  height: 98vh;
+  background-position: center;
   background-size: cover !important;
+  background-repeat:no-repeat;
 }
 .head {
   color: white;
@@ -44,4 +48,8 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-label{
+  color: white !important;
 }
