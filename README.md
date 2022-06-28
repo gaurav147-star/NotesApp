@@ -1,7 +1,7 @@
 # [**NotesApp**](https://ppnotesapp.herokuapp.com/)
 
 An NotesApp website, based on the **MERN** stack. 
-[Visit&nbsp;the&nbsp;live&nbsp;website](https://ppnotesapp.herokuapp.com/)
+[Visit&nbsp;the&nbsp;live&nbsp;website](https://personal-notesapp.netlify.app/)
 
 
 ---
@@ -45,10 +45,8 @@ Open [http://localhost:5000](http://localhost:8000) to view it in the browser. P
 ---
 
 ## Application Screenshots
+![image](https://user-images.githubusercontent.com/78996081/176121004-9718729e-1096-4312-bf08-c466ea19b887.png)
+![image](https://user-images.githubusercontent.com/78996081/176121096-87f93c77-0cc7-4525-a28a-a8cbb76ab4df.png)
+![image](https://user-images.githubusercontent.com/78996081/176121527-a0cc7c52-b42a-4bd4-9032-21834be1f2fa.png)
 
-<a href="https://ppnotesapp.herokuapp.com" target="_blank">
-	<img src="./assets/snap.png" alt="NotesApp Screenshot" />
-	<img src="./assets/snap1.png" alt="NotesApp Screenshot" />
-	<img src="./assets/snap2.png" alt="NotesApp Screenshot" />
 	
-</a>
