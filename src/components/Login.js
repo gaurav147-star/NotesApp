@@ -37,10 +37,12 @@ const Login = (props) => {
 
   return (
     <div className="container " id="logincon">
-      <h2 className="logtxt">Login to NotesApp</h2>
+      <div className="header">
+        <h2 className="logtxt">Login to NotesApp</h2>
+      </div>
       <form onSubmit={handleSubmit} id="login">
         <div className="form-group ">
-          <label htmlFor="exampleInputEmail1">Email address</label>
+         <i class="fa fa-envelope" aria-hidden="true"></i>
           <input
             type="email"
             className="form-control"
@@ -53,7 +55,7 @@ const Login = (props) => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="exampleInputPassword1">Password</label>
+         <i class="fa fa-lock" aria-hidden="true"></i>
           <input
             type="password"
             className="form-control"
@@ -70,9 +72,11 @@ const Login = (props) => {
           </button>
         </div>
         <div className="contn">
+          <span>Don't have any account? 
           <Link className="sign mx-2 my-2" to="/signup">
             Signup
           </Link>
+          </span>
         </div>
       </form>
     </div>

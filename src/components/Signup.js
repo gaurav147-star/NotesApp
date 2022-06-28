@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./css/signup.css";
-import {Link, useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 require("dotenv").config();
 const Signup = (props) => {
   const [credentials, setCredentials] = useState({
@@ -43,10 +43,11 @@ const Signup = (props) => {
 
   return (
     <div className="container" id="signupcon">
-      <h2 className="signtxt">Sign up</h2>
+      <h2 className="signtxt">SignUp to NotesApp </h2>
       <form onSubmit={handleSubmit} id="signup">
         <div className="form-group">
-          <label htmlFor="name">Your name</label>
+          {/* <label htmlFor="name">Your name</label> */}
+          <i class="fa fa-user" aria-hidden="true"></i>
           <input
             type="text"
             className="form-control"
@@ -59,7 +60,8 @@ const Signup = (props) => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email address</label>
+          {/* <label htmlFor="email">Email address</label> */}
+          <i class="fa fa-envelope" aria-hidden="true"></i>
           <input
             type="email"
             className="form-control"
@@ -72,7 +74,8 @@ const Signup = (props) => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password</label>
+          {/* <label htmlFor="password">Password</label> */}
+          <i class="fa fa-lock" aria-hidden="true"></i>
           <input
             type="password"
             className="form-control"
@@ -85,7 +88,8 @@ const Signup = (props) => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="cpassword">Confirm Password</label>
+          {/* <label htmlFor="cpassword">Confirm Password</label> */}
+          <i class="fa fa-lock" aria-hidden="true"></i>
           <input
             type="password"
             className="form-control"
@@ -98,15 +102,17 @@ const Signup = (props) => {
           />
         </div>
         <div className="contsignup">
-        <button type="submit" className="btn btn-primary" id="signbtn">
-          Submit
-        </button>
-       
+          <button type="submit" className="btn btn-primary" id="signbtn">
+            Submit
+          </button>
         </div>
         <div className="contsl">
-        <Link className="sign mx-2 my-2" to="/login">
-          Login
-        </Link>
+          <span>
+            Already have an account?
+            <Link className="sign mx-2 my-2" to="/login">
+              Login
+            </Link>
+          </span>
         </div>
       </form>
     </div>

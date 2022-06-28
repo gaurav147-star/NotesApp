@@ -13,11 +13,11 @@
   position: relative;
   width: 500px;
   min-height: 500px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.232);
   border-radius: 10px;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  /* justify-content: center;
+  align-items: center; */
   backdrop-filter: blur(5px);
   box-shadow: 0 25px 45px rgba (0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -28,16 +28,27 @@
 #signup {
   padding-top: 30px;
   position: relative;
+  margin: 0 15px;
 }
 
-#signup label{
+/* #signup label{
   font-size: 0.9rem;
   color: rgb(0, 0, 0) !important;
-}
-#signup .form-control{
+} */
+/* #signup .form-control{
   background: none !important;
   color: white !important;
   border: none;
+} */
+
+#signup input,button{
+  /* width: 300px; */
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
 }
 .contsignup {
   display: flex;
@@ -54,7 +65,7 @@
    */
    background: #fff !important;
    color: #666 !important;
-   max-width: 100px;
+   max-width: 150px;
    cursor: pointer !important;
    margin-bottom: 20px;
    border: none !important;
@@ -63,6 +74,7 @@
 #signbtn:hover {
  background: black !important;
   color: white !important;
+  cursor: pointer;
 }
 .contsl{
   display: flex;
@@ -70,9 +82,13 @@
   align-items: center;
   /* margin-top: 20px; */
 }
+.contsl span{
+  color: #fff;
+}
 .signtxt {
   text-align: center;
   /* margin: 0px 97px; */
+  color: #fff;
   padding-top: 25px;
 }
 
