@@ -1,4 +1,4 @@
-# [**NotesApp**](https://ppnotesapp.herokuapp.com/)
+# [**NotesApp**](https://personal-notesapp.netlify.app/)
 
 An NotesApp website, based on the **MERN** stack. 
 [Visit&nbsp;the&nbsp;live&nbsp;website](https://personal-notesapp.netlify.app/)
